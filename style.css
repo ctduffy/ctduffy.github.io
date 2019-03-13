@@ -18,6 +18,20 @@
 .navbar-light
 {
   background: #ecf6fd;
+  margin-bottom:0px;
+}
+
+.aboutbg {
+  display:block;
+  height:auto;
+  border-top:3px;
+  padding-top: 5%;
+}
+
+.abouttext {
+  padding-right: 20%;
+  padding-left: 20%;
+  text-align:center;
 }
 li a
 {
@@ -31,7 +45,12 @@ li a
 }
 .img-bck
 {
-  background-image: url('longfellow.jpg');
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(longfellow.jpg);
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
