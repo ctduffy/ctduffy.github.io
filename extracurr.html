@@ -26,23 +26,6 @@
     gtag('config', 'UA-82874231-2');
   </script>
 
-
-  <script>
-    /**
-    * Function that captures a click on an outbound link in Analytics.
-    * This function takes a valid URL string as an argument, and uses that URL string
-    * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-    * using 'navigator.sendBeacon' in browser that support it.
-    */
-    var captureOutboundLink = function(url) {
-       ga('send', 'event', 'outbound', 'click', url, {
-         'transport': 'beacon',
-         'hitCallback': function(){document.location = url;}
-       });
-    }
-  </script>
-
-
 </head>
 
 <body>
@@ -83,9 +66,10 @@
         <div class="container">
           <div class="carousel-caption text-center">
             <h1>Harvard-Radcliffe Varsity Rowing</h1>
-            <p>I spend <b>20+ hours a week</b> working hard at practice to make my team faster. I am currently a member of the <b>womens lightweight team</b>, and I particularly enjoy sculling. I walked onto the team my freshman year, and this year I <b>competed on the IRA national championship team</b>, and am a <b> CRCA National Scholar Athlete Award Winner </b> and was named to the <b>2019 All-IRA Academic Team</b>.</p>
-            <p><a class="btn btn-lg btn-primary" href="https://www.gocrimson.com/sports/wcrew-hw/2017-18/bios/Duffy_Clara?view=bio" role="button" onclick="captureOutboundLink('https://www.gocrimson.com/sports/wcrew-hw/2017-18/bios/Duffy_Clara?view=bio')" >Freshman Year</a>
-            <a class="btn btn-lg btn-primary" href="https://gocrimson.com/sports/wcrew-lw/2018-19/bios/Duffy_Clara?view=bio" onclick="captureOutboundLink('https://www.gocrimson.com/sports/wcrew-lw/2018-19/bios/Duffy_Clara?view=bio'); role="button">Sophomore Year</a></p>
+            <p>After my junior year, I was elected captain of the <b>womens lightweight team</b>. I spend <b>20+ hours a week</b> working hard at practice and outside of the boathouse to make my team faster and work well together. I walked onto the team my freshman year, I have <b>competed on the IRA national championship team</b>,have been named to the <b>2019 All-IRA Academic Team</b>, and named a <b> CRCA National Scholar Athlete Award Winner </b>. Sadly, I was not able to compete my Junior Year due to Covid-19, but I look forward to competing again my senior year.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.gocrimson.com/sports/wcrew-hw/2017-18/bios/Duffy_Clara?view=bio" role="button">Freshman Year</a>
+            <a class="btn btn-lg btn-primary" href="https://gocrimson.com/sports/wcrew-lw/2018-19/bios/Duffy_Clara?view=bio" role="button">Sophomore Year</a>
+            <a class="btn btn-lg btn-primary" href="https://gocrimson.com/sports/wcrew-lw/2019-20/bios/duffy_clara_bqb9?view=bio" role="button">Junior Year</a></p>
           </div>
         </div>
       </div>
@@ -94,8 +78,8 @@
         <div class="container">
           <div class="carousel-caption">
             <h1>Women in Computer Science</h1>
-            <p>I am a <b>Co-Comp Director</b> for Harvard's chapter of Women in Computer Science. In this position, I help younger students join the club, which involves planning how the requirements should be met, as well as organizing events and distributing information about how these requirements can be met.</p>
-            <p><a class="btn btn-lg btn-primary" href="http://www.harvardwics.com" onclick="captureOutboundLink('http://www.harvardwics.com');  role="button">WiCS Website</a></p>
+            <p>I am the <b>Finance Director</b> for Harvard's chapter of Women in Computer Science. In this role, I arrange the budget and approve, track, and reimburse spending within the club, ensuring that all funds are properly used to further our mission. Last year, I was the <b>Co-Comp Director</b>, which meant that I helped younger students join the club by planning requirements, events, and distributing relevant information.</p>
+            <p><a class="btn btn-lg btn-primary" href="http://www.harvardwics.com" role="button">WiCS Website</a></p>
           </div>
         </div>
       </div>

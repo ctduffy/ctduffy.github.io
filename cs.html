@@ -26,21 +26,6 @@
   </script>
 
 
-  <script>
-    /**
-    * Function that captures a click on an outbound link in Analytics.
-    * This function takes a valid URL string as an argument, and uses that URL string
-    * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-    * using 'navigator.sendBeacon' in browser that support it.
-    */
-    var captureOutboundLink = function(url) {
-       ga('send', 'event', 'outbound', 'click', url, {
-         'transport': 'beacon',
-         'hitCallback': function(){document.location = url;}
-       });
-    }
-  </script>
-
 
 </head>
 
@@ -81,7 +66,7 @@
             <div class="card-block">
               <img class="card-img-top" src="pics/cs/nlp-prims.jpg" alt="Card image">
               <h4 class="card-header">NLP Primitives Library</h4>
-              <p class="card-body p-y-1">Created an open source library of natural language processing primitive functions, primarily for use with the open source Featuretools library. Used python for development. <a href="https://github.com/FeatureLabs/nlp_primitives"onclick="captureOutboundLink('https://github.com/FeatureLabs/nlp_primitives')" class="card-link">Open source on github.</a></p>
+              <p class="card-body p-y-1">Created an open source library of natural language processing primitive functions, primarily for use with the open source Featuretools library. Used python for development. <a href="https://github.com/FeatureLabs/nlp_primitives" class="card-link">Open source on github.</a></p>
             </div>
           </div>
         </div>
@@ -90,7 +75,7 @@
             <div class="card-block">
               <img class="card-img-top" src="pics/cs/auto.jpg" alt="Card image">
               <h4 class="card-header">Autocorrect</h4>
-              <p class="card-body p-y-1">Used C to create an autocorrect and autocomplete function. <a href="https://github.com/ctduffy/autocorrect" onclick="captureOutboundLink('https://github.com/ctduffy/autocorrect')" class="card-link">Uploaded to github.</a></p>
+              <p class="card-body p-y-1">Used C to create an autocorrect and autocomplete function. <a href="https://github.com/ctduffy/autocorrect" class="card-link">Uploaded to github.</a></p>
             </div>
           </div>
         </div>
@@ -100,7 +85,7 @@
               <img class="card-img-top" src="pics/cs/envirascr.jpg" alt="Card image">
               <h4 class="card-header">Envirostats</h4>
               <p class="card-body p-y-1">Created a website focused on data collection and storage with NodeJS, SQL, and JS/HTML/CSS for an environmental statistics class at St. Anne's Belfield school.
-              <a href="https://bitbucket.org/projectxHSE/envirostats/src/master/" onclick="captureOutboundLink('https://bitbucket.org/projectxHSE/envirostats/src/master/')" class="card-link">Uploaded to bitbucket.</a></p>
+              <a href="https://bitbucket.org/projectxHSE/envirostats/src/master/" class="card-link">Uploaded to bitbucket.</a></p>
             </div>
           </div>
         </div>
@@ -112,7 +97,7 @@
               <img class="card-img-top" src="pics/cs/ocaml.jpg" alt="Card image">
               <h4 class="card-header">OCaml</h4>
               <p class="card-body p-y-1">Used OCaml to complete weekly problem sets and a final project; feel free to email me to request access to see any of these, but I cannot link to the github because it is private (and I should not copy it because it would violate academic honesty policies).
-              <a class="email" href="mailto:ctduffy@college.harvard.edu?subject=CS51 project access" onclick="captureOutboundLink('mailto:ctduffy@college.harvard.edu?subject=CS51 project access');" target="_top">Email me here.</a>
+              <a class="email" href="mailto:ctduffy@college.harvard.edu?subject=CS51 project access" target="_top">Email me here.</a>
             </div>
           </div>
         </div>
@@ -122,7 +107,7 @@
               <img class="card-img-top" src="pics/cs/sportfeed.jpg" alt="Card image">
               <h4 class="card-header">Sport Feed</h4>
               <p class="card-body p-y-1">Created chatroom website with live updating sports scores and reccomended sports games to watch based on user's history. Used node.js, express, SQLite, html/css and javascript
-              <a href="https://github.com/ctduffy/sportfeed" onclick="captureOutboundLink('https://github.com/ctduffy/sportfeed');" class="card-link">Uploaded to github.</a></p>
+              <a href="https://github.com/ctduffy/sportfeed" class="card-link">Uploaded to github.</a></p>
             </div>
           </div>
         </div>
@@ -132,7 +117,7 @@
               <img class="card-img-top" src="pics/cs/pac.jpg" alt="Card image">
               <h4 class="card-header">Pacman solver</h4>
               <p class="card-body p-y-1">Project using python for "pac-man" game. Learned about different search algorithms, how to implement them, and their strengths and weaknesses in different situations.
-              <a href="https://github.com/ctduffy/pacmanproject" onclick="captureOutboundLink('https://github.com/ctduffy/pacmanproject');" class="card-link">Uploaded to github.</a></p>
+              <a href="https://github.com/ctduffy/pacmanproject" class="card-link">Uploaded to github.</a></p>
             </div>
           </div>
         </div>
@@ -144,7 +129,7 @@
               <img class="card-img-top" src="pics/cs/mvis.jpg" alt="Card image">
               <h4 class="card-header">Processing Music Visualizer</h4>
               <p class="card-body p-y-1">Used processing (Java-based language) to create a music visualizer.
-              <a href="https://github.com/ctduffy/processingmusicvis" onclick="captureOutboundLink('https://github.com/ctduffy/processingmusicvis')" class="card-link">Uploaded to github.</a></p>
+              <a href="https://github.com/ctduffy/processingmusicvis" class="card-link">Uploaded to github.</a></p>
             </div>
           </div>
         </div>
@@ -154,7 +139,7 @@
               <img class="card-img-top" src="pics/cs/python.jpg" alt="Card image">
               <h4 class="card-header">Python</h4>
               <p class="card-body p-y-1">Used Python to complete weekly algorithmic problem sets; feel free to email me to request access to see any of these, but I cannot share publicly due to academic honesty reasons.
-              <a class="email" href="mailto:ctduffy@college.harvard.edu?subject=CS124 pset access" target="_top" onclick="captureOutboundLink('mailto:ctduffy@college.harvard.edu?subject=CS124 pset access')">Email me here.</a></p>
+              <a class="email" href="mailto:ctduffy@college.harvard.edu?subject=CS124 pset access" target="_top">Email me here.</a></p>
             </div>
           </div>
         </div>
@@ -163,7 +148,7 @@
             <div class="card-block">
               <img class="card-img-top" src="pics/cs/sportfeed.jpg" alt="Card image">
               <h4 class="card-header">Smart Mirror</h4>
-              <p class="card-body p-y-1">Created a smart mirror with NodeJS and API calls. Won regional hackathon with this idea. <a href="https://github.com/ctduffy/smartmirrorhackathon"onclick="captureOutboundLink('https://github.com/ctduffy/smartmirrorhackathon')" class="card-link">Uploaded to github.</a></p>
+              <p class="card-body p-y-1">Created a smart mirror with NodeJS and API calls. Won regional hackathon with this idea. <a href="https://github.com/ctduffy/smartmirrorhackathon" class="card-link">Uploaded to github.</a></p>
             </div>
           </div>
         </div>
@@ -175,7 +160,7 @@
               <img class="card-img-top" src="pics/cs/github.jpg" alt="Card image">
               <h4 class="card-header">&More Projects Forthcoming</h4>
               <p class="card-body p-y-1">As I am in my junior year of college, I am continually adding new projects and code, and you can keep up with me on github!
-              <a href="https://github.com/ctduffy" onclick="captureOutboundLink('https://github.com/ctduffy')"class="card-link">Uploaded to github.</a></p>
+              <a href="https://github.com/ctduffy"class="card-link">Uploaded to github.</a></p>
             </div>
           </div>
         </div>
