@@ -26,22 +26,6 @@
   </script>
 
 
-  <script>
-    /**
-    * Function that captures a click on an outbound link in Analytics.
-    * This function takes a valid URL string as an argument, and uses that URL string
-    * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-    * using 'navigator.sendBeacon' in browser that support it.
-    */
-    var captureOutboundLink = function(url) {
-       ga('send', 'event', 'outbound', 'click', url, {
-         'transport': 'beacon',
-         'hitCallback': function(){document.location = url;}
-       });
-    }
-  </script>
-
-
 </head>
 
 <body>
@@ -73,12 +57,23 @@
   <div class="container marketing">
     <hr class="featurette-divider">
       <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Software Engineering Intern <span class="text-muted">at Alteryx Innovation Labs</span></h2>
+          <p class="lead">This year, as a <i>Software Engineering Intern</i>, I worked on open source automated machine learning tools for the first half of the summer. In the second half of the summer I created an API for an end-to-end automated machine learning process supported by the open source tools, taking advantage of my experience working on those tools both this and last summer. I was invited to continue this project through the fall and chose to pursue my internship rather than attend virtual school.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="pics/workex/wfh.jpg" alt="Me, working from home :)">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading"> Machine Learning/Software Engineering Intern <span class="text-muted">at Feature Labs</span></h2>
           <p class="lead">In this role, I designed and implemented software for enterprise and open source automated machine learning software, created a <a href='https://github.com/FeatureLabs/nlp_primitives'>python library</a> focused on Natural Language Processing in the feature engineering stage of machine learning, and improved the reliability and functionality for both open source and commercial products. <a href="https://www.featurelabs.com"> Feature Labs</a> is a company founded out of MIT's <a href="https://www.csail.mit.edu">Computer Science and Artificial Intelligence Lab</a> that foucses on automating the feature engineering stage of machine learning.</p>
         </div>
         <div class="col-md-5 order-md-1">
-          <img class="featurette-image img-fluid mx-auto" src="pics/workex/fl.jpg" alt="Picture of my fellow PAFs and me">
+          <img class="featurette-image img-fluid mx-auto" src="pics/workex/fl.jpg" alt="Nice views from the office">
         </div>
       </div>
     <hr class="featurette-divider">
@@ -100,7 +95,7 @@
           <p class="lead">I cofounded a business focused on connecting generations through technology. In this role, I helped over 200 senior citizens around the Charlottesville area learn about technology. My cofounding partner and I pitched the business at the Tom Tom Festival Crowdfunded Pitch Contest in 2016 and won $5000 and a place in the Darden School of Business' incubator Lab summer accelerator. </p>
         </div>
         <div class="col-md-5 order-md-1">
-          <img class="featurette-image img-fluid mx-auto" src="pics/workex/ttff.jpg" alt="photo of winning pitch night">
+          <img class="featurette-image img-fluid mx-auto" src="pics/workex/ttff.jpg" alt="winning pitch night!">
         </div>
       </div>
 
@@ -112,7 +107,7 @@
           <p class="lead">Coached yougest age group of local summer swim team, lifeguarded, worked as a cafe employee, and taught volunteer swim lessons here. Taught over 200 kids life saving swimming skills.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" src="pics/workex/fsbc.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="pics/workex/fsbc.jpg" alt="Me and my fellow swim coaches">
         </div>
       </div>
 
